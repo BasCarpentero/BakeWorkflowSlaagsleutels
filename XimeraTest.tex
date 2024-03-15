@@ -1,0 +1,87 @@
+\documentclass{article}
+
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{thmtools}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{framed}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+
+\colorlet{LightGray}{White!90!Periwinkle}
+\colorlet{LightOrange}{Orange!15}
+\colorlet{LightGreen}{Green!15}
+
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+
+\declaretheoremstyle[name=Theorem,]{thmsty}
+\declaretheorem[style=thmsty,numberwithin=section]{theorem}
+\tcolorboxenvironment{theorem}{colback=LightGray}
+
+\declaretheoremstyle[name=Proposition,]{prosty}
+\declaretheorem[style=prosty,numberlike=theorem]{proposition}
+\tcolorboxenvironment{proposition}{colback=LightOrange}
+
+\declaretheoremstyle[name=Principle,]{prcpsty}
+\declaretheorem[style=prcpsty,numberlike=theorem]{principle}
+\tcolorboxenvironment{principle}{colback=LightGreen}
+
+\setstretch{1.2}
+\geometry{
+    textheight=9in,
+    textwidth=5.5in,
+    top=1in,
+    headheight=12pt,
+    headsep=25pt,
+    footskip=30pt
+}
+
+\begin{document}
+
+
+\title{ \normalsize \textsc{}
+		\\ [2.0cm]
+		\HRule{1.5pt} \\
+		\LARGE \textbf{\uppercase{Kampbezoek Gewest Snorkel}
+		\HRule{2.0pt} \\ [0.6cm] \LARGE{Chiro Meldert} \vspace*{10\baselineskip}}
+		}
+
+\maketitle
+\newpage
+
+\newpage
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.65]{img/Koningsvak.png}
+    \caption{Het speelveld is voor elk spel hetzelfde}
+    \label{fig:Ex2}
+\end{figure}
+
+\newpage
+\section{FFA Jagerbal}
+Dit spel wordt gespeeld in de volledige, grote cirkel. Ieder speelt voor zichzelf en er zijn enkele ballen in het spel waarmee je anderen kan aangooien. Als je aangegooid bent, onthoud je wie je heeft aangegooid. Als die persoon zelf aangegooid wordt, mag je terug in het veld. Als je voor het eerst aangegooid wordt, loop je eerst naar de leiding om een nummer te krijgen voor de teamverdeling.
+
+\section{Trefbal + vier op een rij}
+Dit spel wordt gespeeld in de kruisende rechthoeken. Gewoon trefbal, maar met in het midden een rooster waarop vier op een rij wordt gespeeld.
+\begin{enumerate}
+    \item Gewone regels van trefbal met vier teams.
+    \item Als je aan bent ga je een vestje halen bij de leiding en neem je het mee naar je koningsvak. Als je al een vestje hebt, ga je nog steeds langs de post voor een nieuw vestje.
+    \item Als er meer dan 1 koning is, mag je beginnen stelen uit andere koningsvakken. Als je een vestje kan pakken en uit het vak geraakt zonder getikt te worden, mag je het vestje aandoen.
+    \item Iemand die een vest aanheeft mag in het vier op een rij gaan staan. Als die aangegooid wordt in het vier op een rij vak ga je terug naar je beginvak.
+\end{enumerate}
+Als een team geen spelers meer heeft, mag het rond de grote cirkel gaan staan om alle verloren ballen te pakken en proberen iemand terug in leven te krijgen.
+
+\section{Flesjes verdedigen}
+In dit spel krijgt elk team drie kegels in zijn eigen kwartcirkel. Je moet proberen met enkele ballen de kegels van de andere team om te shotten. Je probeert elkaars schoenen uit te trekken. Als je schoen uit is, mag je met die voet niet meer scoren. Je mag je schoen terug proberen te stelen totdat die in een koningsvak ligt, dan ben je hem kwijt.
+
+\section{Rugby met muziek}
+Dit spel wordt gespeeld in de kruisende rechthoeken. Twee rugbyspelen vinden tegelijk plaats. Ieder lid krijgt een bepaalde artiest op hun hoofd geschreven (elke artiest komt twee maal voor per team). Een persoon mag enkel scoren als muziek wordt afgespeeld van zijn/haar artiest.
+
+
+\end{document}
